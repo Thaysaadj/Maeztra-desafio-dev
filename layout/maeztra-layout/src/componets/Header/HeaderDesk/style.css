@@ -73,9 +73,9 @@
 
 .container-menu {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 100px;
   align-items: center;
-  margin: 0 auto;
   width: 100%;
   padding: 10px 323px 9px 162px;
 
@@ -120,6 +120,13 @@
   }
 }
 
+@media (min-width:1024px){
+  .container-menu {
+    gap: 70px;
+    padding: 0;
+  }
+}
+
 @media (min-width:1024px) and (max-width:1440px) {
   .section-header-desk{
     padding: 0 20px 0;
@@ -129,5 +136,7 @@
     display: flex;
     gap: 15px;
   }
+
+ 
 
 } 
