@@ -11,7 +11,7 @@
   gap: 15px;
   flex-direction: row;
   margin-left: 2rem;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }
 
 .item {
@@ -61,7 +61,7 @@
   height: 0;
 }
 
-@media (min-width: 1440px) {
+@media (min-width: 1460px) {
   .carousel {
     display: flex;
     justify-content: center;
