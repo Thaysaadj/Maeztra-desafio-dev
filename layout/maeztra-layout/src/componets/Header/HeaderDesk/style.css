@@ -120,7 +120,7 @@
   }
 }
 
-@media (min-width:1024px){
+@media (width:1024px){
   .container-menu {
     gap: 70px;
     padding: 0;
