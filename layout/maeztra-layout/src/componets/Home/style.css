@@ -1,0 +1,17 @@
+.middle-items{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+
+@media(max-width:1024px){
+
+  .middle-items{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}

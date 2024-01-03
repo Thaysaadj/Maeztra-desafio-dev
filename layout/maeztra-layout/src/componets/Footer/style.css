@@ -1,0 +1,152 @@
+/*PreFooter*/
+
+.preFooter-container {
+  display: flex;
+  height: 185px;
+  width: 100%;
+  left: 0px;
+  top: 2064px;
+  border-radius: 0px;
+  flex-direction: row;
+}
+
+.preFooter-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 40px 35px 17px;
+}
+
+.preFooter-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.preFooter-text {
+  width: 140px;
+  height: 18px;
+  font-family: Titillium;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #353535;
+}
+
+.preFooter-icon {
+  width: 9px;
+  height: 18px;
+}
+
+.preFooter-grey {
+  height: 233px;
+  width: 360px;
+  left: 0px;
+  top: 2209px;
+  border-radius: 0px;
+
+}
+
+/* Footer Cinza*/
+
+.footer-container {
+  height: 233px;
+  background: #353535;
+}
+
+.container-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.icon-media-facebook {
+  width: 32px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.icon-media-linkedin {
+  width: 32px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.icon-media-instagram {
+  width: 32px;
+  margin-top: 24px;
+  margin-right: 24px;
+}
+
+.icon-media-youtube {
+  width: 32px;
+  margin-top: 24px;
+}
+
+.container-cash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  margin-top: 36px;
+}
+
+.icon-cash-visa1 {
+  width: 32px;
+  height: 25px;
+  margin-right: 24px;
+  margin-left: 24px;
+}
+
+.icon-cash-visa2 {
+  width: 32px;
+  height: 25px;
+  margin-right: 24px;
+}
+
+.icon-cash-master1 {
+  width: 32px;
+  height: 25px;
+  margin-right: 24px;
+}
+
+.icon-cash-master2 {
+  width: 32px;
+  height: 25px;
+  margin-right: 24px;
+}
+
+.container-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 35px;
+}
+
+.icon-vtex {
+  width: 90px;
+}
+
+.icon-maeztra {
+  width: 120px;
+}
+
+@media(min-width: 1024px) {
+  .footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 85px;
+  }
+
+  .icon-media-facebook,
+  .icon-media-linkedin,
+  .icon-media-instagram,
+  .icon-media-youtube,
+  .container-cash,
+  .container-logos {
+    margin-top: 0;
+  }
+}

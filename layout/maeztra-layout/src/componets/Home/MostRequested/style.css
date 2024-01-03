@@ -1,0 +1,153 @@
+.request-card {
+  width: 308px;
+  height: 601px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.item-most {
+  display: flex;
+  gap: 16px;
+}
+
+.request-img img {
+  width: 100%;
+  display: flex;
+}
+
+.request-info {
+  display: flex;
+  flex-direction: column;
+  width: 254px;
+}
+
+.request-price {
+  width: 254px;
+  height: 30px;
+  font-family: Titillium;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 30px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #353535;
+}
+
+.request-title {
+  font-family: Titillium;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #353535;
+  margin-bottom: 8px;
+}
+
+.request-description {
+  font-family: Titillium;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #353535;
+  opacity: 0.5;
+  height: 54px;
+  width: 249px;
+}
+
+.request-button {
+  width: 254px;
+  height: 35px;
+  top: 550px;
+  left: 27px;
+  background-color: #faa500;
+  font-family: Titillium;
+  font-weight: 400;
+  text-align: center;
+  color: #ffff;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 4px;
+  border-style: none;
+  margin-top: 8px;
+}
+
+.request-colors {
+  height: 27px;
+  width: 132px;
+  left: 27px;
+  top: 389px;
+  border-radius: 0px;
+  display: flex;
+  margin-top: 0.5rem;
+  margin-right: auto;
+  margin-left: 1.5rem;
+  justify-content: space-between;
+}
+
+.carousel-most {
+  display: flex;
+  overflow-y: hidden;
+  align-items: center;
+  gap: 15px;
+  flex-direction: row;
+  position: relative;
+  margin-left: 2rem;
+  position: relative;
+}
+
+.carousel-most::-webkit-scrollbar,
+.carousel::-webkit-scrollbar-track {
+  height: 0;
+}
+
+.request-color {
+  width: 27px;
+  height: 27px;
+  border-radius: 4px;
+}
+
+.request-color:first-child {
+  border: 1px solid #353535;
+}
+
+.seta-most-left{
+  position: absolute;
+  left: 28px;
+  top: calc(50% - 16px);
+}
+
+.seta-most-right {
+  position: absolute;
+  right: 28px;
+  top: calc(50% - 16px);
+
+}
+
+@media (max-width: 767px) {
+  .seta-most-left,
+  .seta-most-right {
+    display: none; 
+  }
+}
+
+
+
+@media (max-width: 1024px) {
+  .carousel-most {
+    margin-left: 1rem;
+  }
+  
+}
+
+@media (min-width: 1441px) {
+  .carousel-most {
+    display: flex;
+    justify-content: center;
+  }
+  
+}

@@ -1,0 +1,51 @@
+.middleBanner-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px 29px 39px 31px;
+}
+
+.middleBanner-img {
+  width: 300px;
+}
+
+.middleBanner-img img:first-child {
+  display: none;
+}
+
+.middleBanner-img img {
+  width: 100%;
+}
+
+@media (max-width:1024px){
+  .middleBanner-img{
+    width: 100%;
+  }
+
+  .middleBanner-img img {
+    margin: 0 auto;
+  }
+
+}
+
+@media(min-width:1024px) {
+  .middleBanner-img {
+    width: 560px;
+  }
+
+  .middleBanner-img img {
+    object-fit: cover;
+  }
+
+  .middleBanner-container {
+    margin-left: 10px;
+  }
+
+  .middleBanner-img img:last-child {
+    display: none;
+  }
+
+  .middleBanner-img img:first-child {
+    display: block;
+  }
+}

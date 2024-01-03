@@ -1,0 +1,78 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+html {
+  width: 100vw;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Titillium;
+  src: url(".././public/fonts/Titillium/TitilliumWeb-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Titillium;
+  src: url(".././public/fonts/Titillium/TitilliumWeb-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 700;
+  font-family: Montserrat;
+  src: url(".././public/fonts/Montserrat/static//Montserrat-Bold.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Montserrat;
+  src: url(".././public/fonts/Montserrat/static/Montserrat-Regular.ttf");
+}
+
+@font-face {
+  font-weight: 400;
+  font-family: Lato;
+  src: url(".././public/fonts/Lato/Lato-Regular.ttf");
+}
+
+.section_headerDesk,
+.section-menu {
+  display: none;
+}
+
+.container-footerDesk {
+  display: none;
+}
+
+@media (min-width:1024px) {
+  .section_headerMain {
+    display: none !important;
+  }
+
+  .section_headerDesk,
+  .section-menu {
+    display: flex !important;
+    position: sticky !important;
+  }
+
+  .preFooter-container {
+    display: none !important;
+  }
+
+  .container-footerDesk {
+    display: flex !important;
+  }
+
+}

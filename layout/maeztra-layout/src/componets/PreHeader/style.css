@@ -1,0 +1,44 @@
+.section_preHeader {
+  background-color: #353535;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: sticky;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+
+}
+
+.container_preHeader {
+  width: 274px;
+  height: 18px;
+  left: 47px;
+  top: 3px;
+
+}
+
+.paragraph_preHeader {
+  font-family: "Titillium";
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #FFFFFF;
+  ;
+
+}
+
+@media(min-width: 1024px) {
+
+  .container_preHeader{
+    width: 100%;
+  }
+
+  .paragraph_preHeader {
+    font-size: 12px;
+  }
+}

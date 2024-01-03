@@ -1,0 +1,43 @@
+.middle-container {
+  padding: 31px;
+  width: 100%;
+}
+
+.middle-title {
+  font-family: Titillium;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 37px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.middre-subtitle {
+  width: 269px;
+  height: 172px;
+  font-family: Titillium;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+
+@media(max-width:1024px){
+  .middre-subtitle{
+    width: auto;
+    height: auto;
+  }
+}
+
+@media(min-width:1024px){
+  .middle-title{
+    font-size:  24px;
+  }
+
+  .middle-container{
+    width: auto;
+  }
+}

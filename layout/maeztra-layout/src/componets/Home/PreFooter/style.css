@@ -1,0 +1,75 @@
+.preFooter-container {
+  display: flex;
+  height: 185px;
+  width: 100%;
+  left: 0px;
+  top: 2064px;
+  border-radius: 0px;
+  flex-direction: row;
+}
+
+.preFooter-section {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 40px 35px 17px;
+}
+
+.preFooter-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 17px;
+}
+
+.preFooter-text {
+  width: 150px;
+  height: 18px;
+  font-family: Titillium;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  color: #353535;
+}
+
+.preFooter-icon {
+  width: 9px;
+  height: 18px;
+}
+
+.preFooter-grey {
+  height: 233px;
+  width: 360px;
+  left: 0px;
+  top: 2209px;
+  border-radius: 0px;
+}
+
+.content-footerDesk {
+  display: flex;
+  flex-direction: column;
+}
+
+.content-footerDesk p {
+  margin-bottom: 1rem;
+  font-family: Titillium;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+
+.content-footerDesk p strong {
+  font-family: Titillium;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+  letter-spacing: 0px;
+}
+
+.container-footerDesk {
+  justify-content: space-evenly;
+  max-width: 1600px;
+  width: 100%;
+  padding: 2rem 0;
+  margin: 0 auto;
+}
